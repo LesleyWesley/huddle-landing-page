@@ -121,7 +121,7 @@ h1 {
 
 .features {
   background-color: #FFF;
-  padding: 50px 10px 150px 10px;
+  padding: 50px 10px 100px 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -159,4 +159,43 @@ h2 {
   color: #808D99;
   line-height: 1.6em;
   padding: 0 5px;
+}
+
+/*=========== CTA SECTION - MOBILE ============ */
+
+.cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background: linear-gradient(#FFF, #FFF 65%, #00252E 65%, #00252E 100%);
+}
+
+aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 95%;
+  background-color: #FFF;
+  border-radius: 15px;
+  padding: 25px 0 40px 0;
+  box-shadow: 0 0px 15px rgba(0,0,0,0.05), 0 3px 10px rgba(0,0,0,0.05);
+}
+
+h3 {
+  font-family: "Poppins", sans-serif;
+  color: #00252E;
+  font-size: 1em;
+}
+
+aside a {
+  font-size: .65em;
+  color: #EBFBFF;
+  font-weight: 700;
+  text-decoration: none;
+  background-color: #FF52BF;
+  padding: 10px 50px;
+  border-radius: 25px;
+  box-shadow: 0 0px 15px rgba(0,0,0,0.1), 0 3px 10px rgba(0,0,0,0.1);
 }
