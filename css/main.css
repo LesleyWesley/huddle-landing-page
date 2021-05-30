@@ -199,3 +199,18 @@ aside a {
   border-radius: 25px;
   box-shadow: 0 0px 15px rgba(0,0,0,0.1), 0 3px 10px rgba(0,0,0,0.1);
 }
+
+/*=============== FOOTER - MOBILE ============== */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  background-color: #00252E;
+  padding: 50px 0;
+}
+
+.footer-logo {
+  color: #FFF;
+}
