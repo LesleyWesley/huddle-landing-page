@@ -7,7 +7,7 @@ body {
   font-size: 1.125em;
   background-color: #EBFBFF;
   margin: 0;
-  padding: 30px 0;
+  padding: 30px 0 0 0;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -44,7 +44,7 @@ header {
 }
 
 header img {
-  width: 30%;
+  width: 32%;
 }
 
 .nav {
@@ -211,6 +211,11 @@ footer {
   padding: 50px 0;
 }
 
+.footer-logo  {
+  width: 50%;
+  padding: 15px 0 25px 0;
+}
+
 .address,
 .phone,
 .email {
@@ -251,6 +256,23 @@ li {
   line-height: 2.5em;
 }
 
+.social {
+  padding: 15px 0 25px 0;
+  display: flex;
+  justify-content: space-between;
+  width: 35%;
+}
+
+.social i {
+  border: 1px solid #FFF;
+  padding: 6px;
+  border-radius: 50%;
+}
+
+i.fab.fa-facebook-f {
+  padding: 6px 10px;
+}
+
 .copyright {
   width: 100%;
   display: flex;
@@ -268,6 +290,7 @@ li {
   font-size: .75em;
   margin-bottom: 0;
   text-align: center;
+  width: 80%;
 }
 
 
@@ -275,4 +298,5 @@ li {
 
 footer i {
   color: #FFF;
+  font-size: .85em;
 }
