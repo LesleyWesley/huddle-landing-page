@@ -293,10 +293,35 @@ i.fab.fa-facebook-f {
   width: 80%;
 }
 
-
-
-
 footer i {
   color: #FFF;
   font-size: .85em;
+}
+
+/*========= ACTIVE STATES ================= */
+
+.nav a:hover {
+  cursor: pointer;
+  color: #808D99;
+}
+
+.hero a:hover {
+  cursor: pointer;
+  background-color: #ff9bdb;
+}
+
+aside a:hover {
+  cursor: pointer;
+  background-color: #ff9bdb;
+}
+
+li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.social i:hover {
+  cursor: pointer;
+  color: #FF52BF;
+  border: 1px solid #FF52BF;
 }
