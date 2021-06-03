@@ -187,6 +187,7 @@ h3 {
   font-family: "Poppins", sans-serif;
   color: #00252E;
   font-size: 1em;
+  text-align: center;
 }
 
 aside a {
@@ -324,4 +325,42 @@ li:hover {
   cursor: pointer;
   color: #FF52BF;
   border: 1px solid #FF52BF;
+}
+
+/*=================================================
+
+      TABLET STYLING
+
+=================================================*/
+
+
+@media only screen and (min-width: 550px) {
+
+  body {
+    padding: 50px 0 0 0;
+  }
+
+  .full-width {
+    width: 78%;
+  }
+
+  header img {
+    width: 25%;
+  }
+
+  aside {
+    width: 80%;
+  }
+
+  h3 {
+    padding: 0 100px;
+  }
+
+  .copyright {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  
 }
