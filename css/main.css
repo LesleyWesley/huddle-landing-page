@@ -362,5 +362,22 @@ li:hover {
 }
 
 @media only screen and (min-width: 768px) {
-  
+
+  .contact,
+  .bottom-nav {
+    width: 50%;
+  }
+
+  .bottom-nav {
+    text-align: right;
+  }
+
+  .social {
+    width: 100%;
+    padding: 25px 225px 50px 225px;
+  }
+
+  .copyright {
+    width: 60%;
+  }
 }
