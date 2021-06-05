@@ -363,6 +363,9 @@ li:hover {
 
 @media only screen and (min-width: 768px) {
 
+  .nav {
+    padding-bottom: 25px;
+  }
   .contact,
   .bottom-nav {
     width: 50%;
@@ -379,5 +382,49 @@ li:hover {
 
   .copyright {
     width: 60%;
+  }
+}
+
+/*==========================================
+
+    SMALL DESKTOP STYLING
+
+============================================*/
+
+@media only screen and (min-width: 1024px) {
+  .full-width {
+    width: 90%;
+  }
+
+  header img {
+    width: 18%;
+  }
+
+  .nav a {
+    padding: 8px 50px;
+    font-size: .8em;
+  }
+/*============= HERO SECTION - SMALL DESKTOP ======== */
+
+  .hero {
+    justify-content: space-between;
+  }
+
+  .hero .half-width {
+    width: 50%;
+    justify-content: flex-start;
+  }
+
+  h1 {
+    text-align: left;
+    font-size: 1.9em;
+  }
+
+  .hero p {
+    text-align: left;
+  }
+
+  .hero a {
+    text-align: left;
   }
 }
