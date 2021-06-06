@@ -396,6 +396,13 @@ li:hover {
     width: 90%;
   }
 
+  header {
+    background-image: url("../images/bg-hero-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+  }
+
   header img {
     width: 18%;
   }
@@ -417,14 +424,20 @@ li:hover {
 
   h1 {
     text-align: left;
-    font-size: 1.9em;
+    font-size: 1.5em;
+    width: 75%;
+    padding-top: 50px;
+    line-height: 1.5em;
   }
 
   .hero p {
     text-align: left;
+    line-height: 1.5em;
+    margin: 5px 0 20px 0;
   }
 
   .hero a {
     text-align: left;
+    padding: 12px 35px;
   }
 }
