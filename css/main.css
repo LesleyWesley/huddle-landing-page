@@ -440,4 +440,34 @@ li:hover {
     text-align: left;
     padding: 12px 35px;
   }
+
+
+/*========= FEATURES SECTION - SMALL DESKTOP ======= */
+
+.feature {
+  justify-content: space-between;
+  padding: 40px 20px 40px 75px;
+}
+
+.half-feature {
+  width: 45%;
+}
+
+.reverse {
+  order: -1;
+}
+
+h2 {
+  text-align: left;
+  width: 100%;
+}
+
+.feature p {
+  text-align: left;
+  padding-left: 0;
+}
+
+.feature img {
+  width: 100%;
+}
 }
