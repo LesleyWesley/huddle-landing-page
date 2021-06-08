@@ -485,4 +485,40 @@ aside a {
   padding: 20px 90px;
   font-size: .9em;
 }
+
+/*=========== FOOTER SECTION - SMALL DESKTOP ===*/
+
+footer .full-width {
+  justify-content: space-between;
+}
+
+.contact {
+  width: 40%;
+}
+
+.footer-logo {
+  width: 40%;
+}
+
+.bottom-nav {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: nowrap;
+  width: 25%;
+}
+
+.social {
+  width: 13%;
+  padding: 0;
+}
+
+.copyright {
+  justify-content: flex-end;
+  width: 100%;
+  padding: 0;
+}
+
+.copyright p {
+  width: 30%;
 }
