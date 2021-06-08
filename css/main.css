@@ -470,4 +470,19 @@ h2 {
 .feature img {
   width: 100%;
 }
+
+/*========== CALL TO ACTION - SMALL DESKTOP ====== */
+
+aside {
+  width: 60%;
+}
+
+h3 {
+  font-size: 1.3em;
+}
+
+aside a {
+  padding: 20px 90px;
+  font-size: .9em;
+}
 }
