@@ -7,7 +7,6 @@ body {
   font-size: 1.125em;
   background-color: #EBFBFF;
   margin: 0;
-  padding: 30px 0 0 0;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -40,6 +39,7 @@ header {
   background-size: 400px;
   background-position-y: -25px;
   background-position-x: -7px;
+  padding-top: 30px;
 
 }
 
@@ -53,7 +53,6 @@ header img {
   align-items: center;
   width: 100%;
   padding-bottom: 80px;
-  background-image: linear-gradient(to bottom, rgba(235, 251, 255, 1), rgba(235, 251, 255, 0.25));
 }
 
 .nav a {
@@ -336,12 +335,13 @@ li:hover {
 
 @media only screen and (min-width: 550px) {
 
-  body {
-    padding: 50px 0 0 0;
-  }
 
   .full-width {
     width: 78%;
+  }
+
+  header {
+    padding-top: 50px;
   }
 
   header img {
@@ -397,7 +397,7 @@ li:hover {
   }
 
   header {
-    background-image: url("../images/bg-hero-mobile.svg");
+    background-image: url("../images/bg-hero-desktop.svg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: top;
@@ -521,4 +521,48 @@ footer .full-width {
 
 .copyright p {
   width: 30%;
+}
+
+/*=========================================================
+
+        LARGE DESKTOP STYLING
+
+======================================================*/
+
+header img {
+  width: 15%;
+}
+
+
+
+.nav {
+  padding-bottom: 60px;
+}
+
+.nav a {
+  padding: 12px 65px;
+}
+
+.hero {
+  padding-bottom: 50px;
+}
+
+.half-width.description {
+  width: 45%;
+}
+
+h1 {
+  font-size: 1.9em;
+  padding-top: 30px;
+}
+
+.hero p {
+  font-size: 1.1em;
+  line-height: 1.6em;
+  margin: 5px 0 30px 0;
+}
+
+.hero a {
+  padding: 15px 65px;
+  font-size: .8em;
 }
