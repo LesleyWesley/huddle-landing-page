@@ -196,7 +196,7 @@ aside a {
   text-decoration: none;
   background-color: #FF52BF;
   padding: 10px 50px;
-  border-radius: 25px;
+  border-radius: 30px;
   box-shadow: 0 0px 15px rgba(0,0,0,0.1), 0 3px 10px rgba(0,0,0,0.1);
 }
 
@@ -591,4 +591,18 @@ h2 {
 
 .feature p {
   font-size: 1.1em;
+}
+
+/*============ CTA SECTION - LARGE DESKTOP ============== */
+
+h3 {
+  font-size: 1.75em;
+}
+
+aside {
+  padding-bottom: 50px;
+}
+
+aside a {
+  font-size: 1em;
 }
