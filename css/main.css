@@ -401,6 +401,7 @@ li:hover {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: top;
+    padding-top: 75px;
   }
 
   header img {
@@ -536,7 +537,7 @@ header img {
 
 
 .nav {
-  padding-bottom: 60px;
+  padding-bottom: 75px;
 }
 
 .nav a {
@@ -544,7 +545,7 @@ header img {
 }
 
 .hero {
-  padding-bottom: 50px;
+  padding-bottom: 75px;
 }
 
 .half-width.description {
@@ -565,4 +566,29 @@ h1 {
 .hero a {
   padding: 15px 65px;
   font-size: .8em;
+}
+
+/*============= FEATURES SECTION - LARGE DESKTOP ==========*/
+
+.features {
+  padding-top: 125px;
+  padding-bottom: 125px;
+}
+
+.feature {
+  padding: 50px 20px 50px 75px;
+  margin: 25px 0;
+}
+
+.half-feature {
+  width: 46%;
+}
+
+
+h2 {
+  font-size: 1.5em;
+}
+
+.feature p {
+  font-size: 1.1em;
 }
