@@ -170,7 +170,7 @@ h2 {
   background: linear-gradient(#FFF, #FFF 65%, #00252E 65%, #00252E 100%);
 }
 
-aside {
+.aside {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -189,7 +189,7 @@ h3 {
   text-align: center;
 }
 
-aside a {
+.aside a {
   font-size: .65em;
   color: #EBFBFF;
   font-weight: 700;
@@ -348,7 +348,7 @@ li:hover {
     width: 25%;
   }
 
-  aside {
+  .aside {
     width: 80%;
   }
 
@@ -378,6 +378,7 @@ li:hover {
   .social {
     width: 100%;
     padding: 25px 225px 50px 225px;
+    max-width: 200px;
   }
 
   .copyright {
@@ -474,7 +475,7 @@ h2 {
 
 /*========== CALL TO ACTION - SMALL DESKTOP ====== */
 
-aside {
+.aside {
   width: 60%;
 }
 
@@ -482,7 +483,7 @@ h3 {
   font-size: 1.3em;
 }
 
-aside a {
+.aside a {
   padding: 20px 90px;
   font-size: .9em;
 }
@@ -597,11 +598,11 @@ h3 {
   font-size: 1.75em;
 }
 
-aside {
+.aside {
   padding-bottom: 50px;
 }
 
-aside a {
+.aside a {
   font-size: 1em;
 }
 
