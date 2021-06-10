@@ -209,6 +209,7 @@ footer {
   flex-flow: row wrap;
   background-color: #00252E;
   padding: 50px 0;
+  width: 100%;
 }
 
 .footer-logo  {
@@ -233,7 +234,7 @@ footer img {
 footer p {
   color: #FFF;
   margin-top: 0;
-  width: 90%;
+  width: auto;
   text-align: left;
   line-height: 1.6em;
 }
@@ -290,7 +291,6 @@ i.fab.fa-facebook-f {
   font-size: .75em;
   margin-bottom: 0;
   text-align: center;
-  width: 80%;
 }
 
 footer i {
@@ -520,15 +520,15 @@ footer .full-width {
   padding: 0;
 }
 
-.copyright p {
-  width: 30%;
-}
 
 /*=========================================================
 
         LARGE DESKTOP STYLING
 
 ======================================================*/
+
+@media only screen and (min-width: 1440px) {
+
 
 header img {
   width: 15%;
@@ -605,4 +605,38 @@ aside {
 
 aside a {
   font-size: 1em;
+}
+
+/*=========== FOOTER - LARGE DESKTOP ===================== */
+
+
+footer .full-width {
+  align-items: flex-start;
+}
+
+.contact {
+  width: 35%;
+}
+
+.bottom-nav {
+  justify-content: flex-start;
+  width: 30%;
+  padding-top: 60px;
+}
+
+ul {
+  padding-right: 100px;
+}
+
+.social {
+  justify-content: flex-start;
+  width: 20%;
+  padding-top: 70px;
+}
+
+.social i {
+  margin-right: 15px;
+  font-size: 1em;
+}
+
 }
